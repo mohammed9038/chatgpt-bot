@@ -7,7 +7,7 @@ async function sendMessage() {
   document.getElementById('user-input').value = '';
 
   try {
-    const response = await fetch("https://YOUR_BACKEND_PROXY_URL", {
+    const response = await fetch("https://script.google.com/macros/s/AKfycbxBpFKoGaLy0n0zDYQ7idC4A7Y3u31RupCivNlrbgO0e0VYc4Afgk6uKcpK2KAP9EOAtw/exec", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
